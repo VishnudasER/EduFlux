@@ -1,0 +1,98 @@
+venv
+.env
+
+
+# Ignore SQLite database (optional if you're using SQLite)
+db.sqlite3
+
+# Ignore compiled Python files
+*.pyc
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Local environment settings (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Test results
+*.cover
+*.py,cover
+.hypothesis/
+
+# Django migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+coverage/
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node.js specific (React frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Parcel / Webpack / React files
+dist/
+build/
+.cache/
+*.js.map
+
+# Lockfiles
+package-lock.json
+yarn.lock
+
+# Logs and databases
+*.log
+*.db
+*.sqlite3
+*.lock
+
+# PyInstaller files
+*.spec
+
+# JetBrains IDEs
+.idea/
+
+# Backup files
+*.bak
+
+# React environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Generated files (e.g., Django collectstatic output)
+static/
